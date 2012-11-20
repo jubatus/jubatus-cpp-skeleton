@@ -1,10 +1,12 @@
-Skelton of Jubatus Client in C++
-================================
+Skelton of Jubatus Client Application in C++
+============================================
 
 Requirements
 ------------
 
-* Jubatus 0.3.3 (development headers required)
+* Jubatus 0.3.3 (server & client headers)
+* pficommon (with development headers)
+* msgpack (with development headers)
 
 Usage
 -----
