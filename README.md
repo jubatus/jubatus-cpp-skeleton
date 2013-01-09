@@ -4,9 +4,10 @@ Skelton of Jubatus Client Application in C++
 Requirements
 ------------
 
-* Jubatus 0.3.3 (server & client headers)
-* pficommon (with development headers)
+* Jubatus 0.4.0 (server & client headers)
 * msgpack (with development headers)
+* jubatus-mpio (with development headers)
+* jubatus-msgpack-rpc (with development headers)
 
 Usage
 -----
