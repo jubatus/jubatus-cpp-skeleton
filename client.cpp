@@ -10,20 +10,13 @@ using namespace std;
 const string HOST = "localhost";
 const int    PORT = 9199;
 const string NAME = "";
-const string ALGORITHM   = "lsh";
 
 int main(int argc, char* argv[]){
     ifstream ifs("config.json");
     stringstream ss;
     ss << ifs.rdbuf();
 
-    jubatus::config_data config;
-    config.method = ALGORITHM;
-    config.converter = ss.str();
-
     jubatus::client::recommender r(HOST, PORT, 5);
-    r.set_config(NAME, config);
-
     jubatus::datum d;
 
     d.num_values.push_back(make_pair("movie_A", 5));
