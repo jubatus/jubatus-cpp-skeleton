@@ -22,7 +22,7 @@ $ ./waf build
 To test the client, run:
 
 ```
-$ jubarecommender &
+$ jubarecommender --configpath config.json &
 $ build/client
 ```
 
