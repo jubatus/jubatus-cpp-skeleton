@@ -4,7 +4,7 @@ Skelton of Jubatus Client Application in C++
 Requirements
 ------------
 
-* Jubatus 0.4.2 (server & client headers)
+* Jubatus 0.4.2+ (server & client headers)
 * msgpack (with development headers)
 * jubatus-mpio (with development headers)
 * jubatus-msgpack-rpc (with development headers)
