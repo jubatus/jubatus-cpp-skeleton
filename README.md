@@ -1,5 +1,5 @@
-Skelton of Jubatus Client Application in C++
-============================================
+Skeleton of Jubatus Client Application in C++
+==============================================
 
 Requirements
 ------------
