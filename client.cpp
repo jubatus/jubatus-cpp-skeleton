@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const string HOST = "localhost";
+const string HOST = "127.0.0.1";
 const int    PORT = 9199;
 const string NAME = "";
 
