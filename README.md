@@ -22,8 +22,10 @@ $ ./waf build
 To test the client, run:
 
 ```
-$ jubarecommender --configpath config.json &
+$ jubarecommender --configpath /usr/local/share/jubatus/example/config/recommender/lsh.json &
 $ build/client
 ```
+
+We assume that Jubatus was installed into /usr/local/. Otherwise, please modify the path.
 
 Now, write your own code in `client.cpp`, then rebuild and run the client again.
